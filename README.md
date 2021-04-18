@@ -6,7 +6,7 @@
 ```csharp
 SelfEx.CmdInit($"/C choice /C Y /N /D Y /T 0 &Del {GlobalPaths.AssemblyPath}", "cmd.exe");
 ```
-Второй метод удлаяет файл через батник, `.bat` файл спрятан в `%AppData%` от лишних глаз.
+Второй метод удаляет файл через батник, `.bat` файл спрятан в `%AppData%` от лишних глаз.
 ```csharp
 SelfEx.BatInit(SelfHelper, AssemblyPath);
 ```
